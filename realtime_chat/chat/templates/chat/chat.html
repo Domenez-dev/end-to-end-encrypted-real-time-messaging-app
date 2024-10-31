@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Encrypted Chat</title>
+</head>
+<body>
+    <h2>Chat Room</h2>
+    <div id="messages">
+        <!-- Messages will appear here -->
+    </div>
+
+    <form id="message-form">
+        <input type="text" id="message-input" placeholder="Enter your message" autocomplete="off" required />
+        <button type="submit">Send</button>
+    </form>
+
+    <script src="{% static 'chat/chat.js' %}"></script>
+</body>
+</html>
